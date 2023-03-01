@@ -6,9 +6,35 @@
   --color-primary: #5721f2;
   --color-on-surface: #000;
   --color-primary-gray: #f5f5f5;
+  --color-primary-gray-navbar: #e3e3e3;
   --color-primary-blue: #3179cc;
   --color-primary-orange: #ff4500;
   --color-secondary-black: #000;
   --color-secondary-white: #fff;
   --color-secondary-gray-submenu: #a8a8a8;
+}
+
+// reset
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-primary-gray);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-secondary-black);
+  font-weight: medium;
+  font-size: 0.75rem;
 }
