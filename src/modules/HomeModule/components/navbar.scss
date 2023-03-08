@@ -1,0 +1,22 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid var(--color-primary-gray-navbar);
+  background-color: var(--color-secondary-white);
+  & &__wrapper {
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    align-items: center;
+  }
+  & &__account {
+    display: flex;
+    gap: 0.75rem;
+  }
+  & &__image {
+    cursor: pointer;
+  }
+}
